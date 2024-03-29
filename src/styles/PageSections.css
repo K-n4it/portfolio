@@ -1,0 +1,35 @@
+#page-sections {
+  display: flex;
+  align-items: center;
+}
+
+#page-sections h5, #page-sections a {
+  color: var(--contrast-color);
+  margin: 10px;
+}
+
+#page-sections a {
+  padding: 4px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#page-sections a:hover {
+  background-color: var(--primary-color);
+}
+
+#page-sections a:active {
+  text-shadow: 0px 0px 5px var(--highlight-color);
+}
+
+.hidden-element {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+
+  #page-sections .cv {
+    display: none;
+  }
+
+}

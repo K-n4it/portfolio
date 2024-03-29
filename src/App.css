@@ -1,0 +1,44 @@
+.App section {
+  min-height: 50vh;
+  padding: 4rem 2rem;
+}
+
+.open-side-menu-btn {
+  background-color: rgba(71, 71, 79, .6);
+  backdrop-filter: blur(5px);
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 1;
+}
+
+.open-side-menu-btn .bi {
+  color: var(--highlight-color);
+  font-size: 3rem;
+  padding: 0;
+}
+
+@media screen and (min-width: 800px) {
+
+    /* the header does not cover the content when click a section to auto-scroll */
+  .App section[id] {
+    scroll-margin-top: 10vh;
+  }
+
+  .open-side-menu-btn {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .App section {
+    max-width: 60%;
+    margin: auto;
+    padding: 4rem 0;
+  }
+  
+}

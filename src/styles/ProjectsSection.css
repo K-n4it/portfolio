@@ -1,0 +1,18 @@
+.projects-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-section-container #project-component {
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 600px) {
+
+  .projects-section-container #project-component {
+    margin: 4rem 1rem;
+  }
+
+}

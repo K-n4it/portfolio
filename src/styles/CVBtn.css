@@ -1,0 +1,17 @@
+#cv-btn {
+  margin-top: 1.2rem;
+}
+
+.cv-open-btn {
+  padding: 0 0 0 10px;
+  border-radius: 5px;
+  color: var(--contrast-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cv-open-btn:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}

@@ -1,0 +1,65 @@
+#cv-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#cv-section img {
+  width: 10rem;
+  margin-top: 1rem;
+  padding: 5px;
+  outline: 2px solid var(--highlight-color);
+  border-radius: 2px;
+}
+
+#cv-section .bi-arrow-down::before {
+  margin-top: .5rem;
+  font-size: 5rem;
+  animation: float 1s infinite alternate;
+}
+
+#cv-section #cv-btn .cv-open-btn {
+  background-color: var(--secondary-color);
+  width: 12rem;
+  border: 2px solid var(--highlight-color);
+  font-size: 1.3rem;
+  animation: glow 1.5s linear 1s infinite alternate;
+}
+
+#cv-section #cv-btn .cv-open-btn .bi {
+  background-color: var(--highlight-color);
+  padding: 10px;
+  border-radius: 5px 2px 2px 5px;
+}
+
+#cv-section #cv-btn .cv-open-btn .bi::before {
+  font-size: 2rem;
+}
+
+@keyframes float {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(1rem);
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0px 0px 0px var(--highlight-color);
+  }
+  to {
+    box-shadow: 0px 0px 5px var(--highlight-color);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  
+  #cv-section {
+    display: none; 
+  }
+  
+}

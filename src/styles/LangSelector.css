@@ -1,0 +1,17 @@
+/* #lang-component {
+  background-color: red;
+} */
+
+#lang-component .bi {
+  margin: 0 6px;
+  font-size: 1.4rem;
+}
+
+.lang-component-selector {
+  background-color: var(--details-color);
+  color: var(--contrast-color);
+  padding: 5px;
+  border: 2px solid var(--highlight-color);
+  border-radius: 5px;
+  font-weight: bold;
+}

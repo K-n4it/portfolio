@@ -1,0 +1,52 @@
+#header {
+  background-color: rgba(71, 71, 79, .9);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 10vh;
+  padding: 0 10px;
+  box-shadow: 0px 0px 5px var(--black-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.header-right-section {
+  display: flex;
+  align-items: center;
+}
+
+#header #cv-btn {
+  margin: 0 2rem;
+}
+
+#header #cv-btn .cv-open-btn {
+  background-color: var(--highlight-color);
+  width: 8rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#header #cv-btn .cv-open-btn:hover {
+  filter: brightness(1.2);
+}
+
+#header #cv-btn .cv-open-btn .bi::before {
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 799.5px) {
+
+  #header {
+    display: none;
+  }
+
+}
