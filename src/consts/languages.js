@@ -4,13 +4,14 @@ const langs = {
 
   en : {
     AboutMeSection: {
-      programmer: "Web Developer",
+      programmer: "Software Developer",
       phrase: "Nice to meet you! Thank you for visiting my portfolio. Stay as long as you want 👍"
     },
     SkillsSection: {
       title: "Skills",
       langs_card: "Languages",
       lib_card: "Libraries",
+      mobile_card: "Mobile",
       backend_comment: "In progress...",
       tools_card: "Tools"
     },
@@ -39,13 +40,14 @@ const langs = {
 
   es : {
     AboutMeSection: {
-      programmer: "Desarrollador web",
+      programmer: "Desarrollador de Software",
       phrase: "¡Encantado de conocerte! Gracias por visitar mi portafolio. Quédate todo el tiempo que quieras 👍"
     },
     SkillsSection: {
       title: "Habilidades",
       langs_card: "Lenguajes",
       lib_card: "Bibliotecas",
+      mobile_card: "Móvil",
       backend_comment: "En progreso...",
       tools_card: "Herramientas"
     },

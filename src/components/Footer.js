@@ -1,7 +1,9 @@
 import { useContext } from "react";
+
 import LangContext from "../context/langContext";
 import Contact from "./Contact";
 import PageSections from "./PageSections";
+
 import "../styles/Footer.css";
 
 function Footer() {

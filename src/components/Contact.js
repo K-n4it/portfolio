@@ -1,6 +1,8 @@
 import { useContext, useState } from "react";
+
 import LangContext from "../context/langContext";
-import info from "../data/contactInfo";
+import info from "../consts/contactInfo";
+
 import "../styles/Contact.css";
 
 function Contact() {
@@ -22,16 +24,19 @@ function Contact() {
       <a 
       href={info.linkedin} 
       target="_blank" 
+      rel="noreferrer" 
       title="Linkedin">
         <i className="bi bi-linkedin"></i>
       </a>
       <a 
       href={info.github} 
       target="_blank" 
+      rel="noreferrer" 
       title="GitHub">
         <i className="bi bi-github"></i>
       </a>
     </div>
+    
     <div className="contact-email-container">
       <i className="bi bi-google"></i>
       <input 

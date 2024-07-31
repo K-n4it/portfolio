@@ -1,5 +1,6 @@
 import LangComponent from "./LangComponent";
 import PageSections from "./PageSections";
+
 import "../styles/SideMenu.css";
 
 function SideMenu({ showMenu, toggleMenu }) {

@@ -1,12 +1,11 @@
-// icons
-import HTML from "../SVGs/html.svg";
-import CSS from "../SVGs/css.svg";
-import JS from "../SVGs/js.svg";
-import REACT_I from "../SVGs/react.svg";
-import GIT from "../SVGs/git.svg";
-// previews
-import pokedex from "../img/pokedex1.jpeg";
-import photogate from "../img/photogate.jpeg";
+import HTML from "../assets/SVGs/html.svg";
+import CSS from "../assets/SVGs/css.svg";
+import JS from "../assets/SVGs/js.svg";
+import REACT_I from "../assets/SVGs/react.svg";
+import GIT from "../assets/SVGs/git.svg";
+
+import pokedex from "../assets/img/pokedex1.jpeg";
+import photogate from "../assets/img/photogate.jpeg";
 
 const projects = [
   {

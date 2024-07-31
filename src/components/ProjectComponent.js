@@ -1,5 +1,7 @@
 import { useContext } from "react";
+
 import LangContext from "../context/langContext";
+
 import "../styles/ProjectComponent.css";
 
 function ProjectComponent ({ name, page, git_repo, preview, desc, technologies }) {
@@ -13,12 +15,14 @@ function ProjectComponent ({ name, page, git_repo, preview, desc, technologies }
         <a 
         href={page} 
         target="_blank" 
+        rel="noreferrer" 
         title={lang.Project.to_project}>
           <i class="bi bi-box-arrow-up-right"></i>
         </a>
         <a 
         href={git_repo} 
         target="_blank" 
+        rel="noreferrer" 
         title={lang.Project.to_github}>
           <i className="bi bi-github"></i>
         </a>

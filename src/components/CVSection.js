@@ -1,8 +1,10 @@
 import { useContext } from "react";
+
 import LangContext from "../context/langContext";
-import cvEN from "../img/cv-en.png";
-import cvES from "../img/cv-es.png";
+import cvEN from "../files/cv-en.pdf";
+import cvES from "../files/cv-es.pdf";
 import CVBtn from "./CVBtn";
+
 import "../styles/CVSection.css";
 
 function CVSection() {

@@ -1,5 +1,7 @@
 import { useContext } from "react";
+
 import LangContext from "../context/langContext";
+
 import "../styles/LangSelector.css";
 
 function LangComponent() {
@@ -14,12 +16,12 @@ function LangComponent() {
       onChange={event => handleLang(event)}>
         <option 
         value="en" 
-        selected={(initialLang === "en") ? true : false}>
+        selected={(initialLang === "en")}>
           { lang.lang_en }
         </option>
         <option 
         value="es"
-        selected={(initialLang === "es") ? true : false}>
+        selected={(initialLang === "es")}>
           { lang.lang_es }
         </option>
       </select>

@@ -1,8 +1,10 @@
 import { useContext } from "react";
 import { InView } from "react-intersection-observer";
+
 import LangContext from "../context/langContext";
 import ProjectComponent from "./ProjectComponent";
-import projects from "../data/projects";
+import projects from "../consts/projects";
+
 import "../styles/ProjectsSection.css";
 
 function ProjectsSection ({ handleCurrentSection }) {
@@ -12,7 +14,7 @@ function ProjectsSection ({ handleCurrentSection }) {
   return (
     <InView 
     as="div" 
-    onChange={inView => inView ? handleCurrentSection("projects") : ""}
+    onChange={inView => inView && handleCurrentSection("projects")}
     rootMargin="-50% 0px -50% 0px">
       <section id="projects-section">
         <h3 className="section-title">{lang.ProjectsSection}</h3>
